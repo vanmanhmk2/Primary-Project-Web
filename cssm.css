@@ -1,0 +1,171 @@
+body{
+	max-width:700px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#121212;
+	color:#f7f9f9;
+}
+.banner1{
+	width:100%;
+}
+/*Menu*/
+.menu1{
+	overflow:hidden;
+	background-color:#ecf0f1;
+    font-family: 'Oswald', sans-serif;
+}
+.menu1 a{
+	float:left;
+	font-size:16px;
+	color:black;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+.menu1 a.active{
+	
+}
+/*End*/
+/*Home*/
+.blog{
+    padding:7px;
+}
+.blog::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+.blog img {
+    float: left;
+    margin-right:7px;
+}
+.blog p {
+	font-size:17px;
+}
+.blog h1{
+	font-size:1.7em;
+	font-weight:300;
+	-webkit-margin-before: 0.35em;
+    -webkit-margin-after: 0.35em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.blog a:link{
+	color:white;
+	text-decoration:none;
+}
+.blog a:visited {
+    color:white;
+}
+
+/* mouse over link */
+.blog a:hover {
+    color:white;
+	text-decoration:underline;
+}
+
+.blog a:active {
+    color:white;
+}
+.outderblog{
+	border:2px solid white;
+    padding:14px 28px;
+	border-color:white;
+	border-radius:5px;
+	margin:10px 0px 10px 0px;
+}
+/*Header*/
+.header1{
+	background-color:#f1f1f1;
+	padding:10px;
+	text-align:center;
+	color:black;
+}
+/*ABME*/
+.outder{
+	border:2px solid white;
+    background-color:black;
+    color:#63ff02;
+    padding:14px 28px;
+	border-color:white;
+	border-radius:5px;
+	margin:10px 0px 10px 0px;
+	word-wrap: break-word;
+}
+.outder p{
+	font-size:20px;
+}
+/*Top*/
+.top1{
+	background-color:#bdc3c7;
+	padding:3px;
+	text-align:center;
+	color:black;
+}
+.top1 a{
+	text-decoration:none;
+}
+/*thankfor*/
+.outder2 {
+	border:2px solid white;
+    background-color:black;
+    color:white;
+    padding:14px 28px;
+	border-color:white;
+	border-radius:5px;
+	margin:10px 0px 10px 0px;
+	word-wrap: break-word;
+}
+.outder2 a{
+	color:#63ff02;
+	text-decoration:none;
+}
+.outder2 a:hover{
+	text-transform:uppercase;
+	text-decoration:underline;
+}
+.outder2 li{
+	font-size:20px;
+}
+/*Image*/
+
+/*For Mobile*/
+@media (max-width: 500px) {
+  .blog {
+    text-align:center;
+  }
+
+  .blog img {
+    margin:1px;
+    float:none;
+    display:block;
+	width:100%;
+  }
+  .header1{
+	padding:2px;
+	}
+   .header1 h1{
+	   font-size:17px;
+   }
+   .outder{
+	border:2px solid white;
+    background-color:black;
+    color:#63ff02;
+    padding:6px 20px;
+	margin:10px 0px 10px 0px;
+   }
+   .outder p{
+	   font-size:17px;
+   }
+   .outder2{
+	border:2px solid white;
+    background-color:black;
+    color:white;
+    padding:6px 20px;
+	margin:10px 0px 10px 0px;
+   }
+   .outder2 li{
+	   font-size:17px;
+   }
+}
