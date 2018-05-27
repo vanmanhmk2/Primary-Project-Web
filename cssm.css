@@ -53,7 +53,7 @@ body{
 }
 .blog a:link{
 	color:white;
-	text-decoration:none;
+	text-decoration: none;
 }
 .blog a:visited {
     color:white;
@@ -62,7 +62,7 @@ body{
 /* mouse over link */
 .blog a:hover {
     color:white;
-	text-decoration:underline;
+	text-decoration: none;
 }
 
 .blog a:active {
