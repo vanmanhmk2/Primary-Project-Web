@@ -150,8 +150,8 @@ body{
    }
    .outder{
 	border:2px solid white;
-    background-color:black;
-    color:#63ff02;
+    background-color:#616A6B;
+    color:#F4F6F7;
     padding:6px 20px;
 	margin:10px 0px 10px 0px;
    }
@@ -160,7 +160,7 @@ body{
    }
    .outder2{
 	border:2px solid white;
-    background-color:black;
+    background-color:#616A6B;
     color:white;
     padding:6px 20px;
 	margin:10px 0px 10px 0px;
